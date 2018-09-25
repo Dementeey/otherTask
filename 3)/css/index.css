@@ -1,0 +1,39 @@
+*
+{
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(233, 232, 232);
+}
+
+.color-table {
+  margin: 30px auto;
+  border-collapse: collapse;
+  border: 3px solid rgb(153, 66, 51);
+}
+
+.color-table td {
+  text-align: center;
+  padding: 7px 12px;
+  color: #ffffff;
+  border: 1px solid rgb(59, 82, 77);
+}
+
+.wrap {
+  position: fixed;
+  top: 15px;
+  left: 15px;
+}
+
+#row {
+  width: 50px;
+}
+
+#col {
+  width: 50px;
+}
+
+button {
+  width: 50px;
+}
